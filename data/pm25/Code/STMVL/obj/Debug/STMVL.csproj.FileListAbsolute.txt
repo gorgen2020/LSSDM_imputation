@@ -1,0 +1,22 @@
+D:\Users\v-xiuyi\Project\MissingValue\Code\STMVL\STMVL\STMVL\bin\Debug\STMVL.exe.config
+D:\Users\v-xiuyi\Project\MissingValue\Code\STMVL\STMVL\STMVL\bin\Debug\STMVL.exe
+D:\Users\v-xiuyi\Project\MissingValue\Code\STMVL\STMVL\STMVL\bin\Debug\STMVL.pdb
+D:\Users\v-xiuyi\Project\MissingValue\Code\STMVL\STMVL\STMVL\obj\Debug\STMVL.csprojResolveAssemblyReference.cache
+D:\Users\v-xiuyi\Project\MissingValue\Code\STMVL\STMVL\STMVL\obj\Debug\STMVL.exe
+D:\Users\v-xiuyi\Project\MissingValue\Code\STMVL\STMVL\STMVL\obj\Debug\STMVL.pdb
+D:\Users\v-xiuyi\Project\MissingValue\Release\STMVL\bin\Debug\STMVL.exe.config
+D:\Users\v-xiuyi\Project\MissingValue\Release\STMVL\obj\Debug\STMVL.exe
+D:\Users\v-xiuyi\Project\MissingValue\Release\STMVL\obj\Debug\STMVL.pdb
+D:\Users\v-xiuyi\Project\MissingValue\Release\STMVL\bin\Debug\STMVL.exe
+D:\Users\v-xiuyi\Project\MissingValue\Release\STMVL\bin\Debug\STMVL.pdb
+D:\Users\v-xiuyi\Project\MissingValue\Release\STMVL\obj\Debug\STMVL.csprojResolveAssemblyReference.cache
+D:\Users\v-xiuyi\Project\MissingValue\Release\STMVL\bin\Debug\SampleData\pm25_latlng.txt
+D:\Users\v-xiuyi\Project\MissingValue\Release\STMVL\bin\Debug\SampleData\pm25_missing.txt
+D:\Users\v-xiuyi\Project\MissingValue\Release - Copy\STMVL\bin\Debug\STMVL.exe.config
+D:\Users\v-xiuyi\Project\MissingValue\Release - Copy\STMVL\obj\Debug\STMVL.exe
+D:\Users\v-xiuyi\Project\MissingValue\Release - Copy\STMVL\obj\Debug\STMVL.pdb
+D:\Users\v-xiuyi\Project\MissingValue\Release - Copy\STMVL\bin\Debug\SampleData\pm25_latlng.txt
+D:\Users\v-xiuyi\Project\MissingValue\Release - Copy\STMVL\bin\Debug\SampleData\pm25_missing.txt
+D:\Users\v-xiuyi\Project\MissingValue\Release - Copy\STMVL\bin\Debug\STMVL.exe
+D:\Users\v-xiuyi\Project\MissingValue\Release - Copy\STMVL\bin\Debug\STMVL.pdb
+D:\Users\v-xiuyi\Project\MissingValue\Release - Copy\STMVL\obj\Debug\STMVL.csprojResolveAssemblyReference.cache
