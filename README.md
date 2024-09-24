@@ -11,9 +11,9 @@ exe_physio.py
 ### training and imputation for the PEMS-BAY dataset 
 exe_pemsbay.py
 
-I would like to express my sincere gratitude to the following individuals and repositories, as their work has greatly inspired and contributed to this project:
 
 ## Acknowledgements  A part of the codes is based on CSDI https://github.com/ermongroup/CSDI
+I would like to express my sincere gratitude to the following individuals and repositories, as their work has greatly inspired and contributed to this project:
 @inproceedings{tashiro2021csdi,  
 title={CSDI: Conditional Score-based Diffusion Models for Probabilistic Time Series Imputation},   
 author={Tashiro, Yusuke and Song, Jiaming and Song, Yang and Ermon, Stefano}, 
@@ -21,7 +21,7 @@ booktitle={Advances in Neural Information Processing Systems},
 year={2021} }
 
 
-I would like to express my gratitude to the following individuals, repositories, and models that have inspired to the imputation task:
+Also, I would like to express my gratitude to the following individuals, repositories, and models that have inspired to the imputation task:
 
 @article{liu2023pristi,  
 title={PriSTI: A Conditional Diffusion Framework for Spatiotemporal Imputation},  
