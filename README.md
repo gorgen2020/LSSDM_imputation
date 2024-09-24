@@ -41,3 +41,11 @@ title={Filling the g\_ap\_s: Multivariate time series imputation by graph neural
 author={Cini, Andrea and Marisca, Ivan and Alippi, Cesare},  
 journal={arXiv preprint arXiv:2108.00298},   
 year={2021} }
+
+@article{du2023saits, 
+title = {{SAITS: Self-Attention-based Imputation for Time Series}}, 
+journal = {Expert Systems with Applications}, 
+volume = {219}, 
+pages = {119619}, year = {2023}, issn = {0957-4174}, 
+doi = {10.1016/j.eswa.2023.119619}, url = {https://arxiv.org/abs/2202.08516}, 
+author = {Wenjie Du and David Cote and Yan Liu}, }
