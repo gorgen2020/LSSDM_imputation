@@ -2,13 +2,13 @@
 #type: args
 
 train_VAE:
-  epochs: 20
+  epochs: 200
   batch_size: 16
   lr: 1.0e-3
   itr_per_epoch: 1.0e+8
 
 train_diffussion:
-  epochs: 20
+  epochs: 200
   batch_size: 16 
   lr: 1.0e-3
   itr_per_epoch: 1.0e+8
