@@ -49,21 +49,21 @@ config["model"]["target_strategy"] = args.targetstrategy
 
 print(json.dumps(config, indent=4))
 
-# current_time = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
-# foldername = (
-#     "./save/pems_validationindex" + str(args.validationindex) + "_" + current_time + "/"
-# )
-#
-# print('model folder:', foldername)
-# os.makedirs(foldername, exist_ok=True)
-# with open(foldername + "config.json", "w") as f:
-#     json.dump(config, f, indent=4)
-#
-#
-# train_loader, valid_loader, test_loader, test_train_loader, test_valid_loader,  scaler, mean_scaler = get_dataloader_original(
-#     config["train_VAE"]["batch_size"], device=args.device, missing_pattern=args.missing_pattern,
-#     is_interpolate=config["model"]["use_guide"], target_strategy=args.targetstrategy
-# )
+current_time = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
+foldername = (
+    "./save/pems_validationindex" + str(args.validationindex) + "_" + current_time + "/"
+)
+
+print('model folder:', foldername)
+os.makedirs(foldername, exist_ok=True)
+with open(foldername + "config.json", "w") as f:
+    json.dump(config, f, indent=4)
+
+
+train_loader, valid_loader, test_loader, test_train_loader, test_valid_loader,  scaler, mean_scaler = get_dataloader_original(
+    config["train_VAE"]["batch_size"], device=args.device, missing_pattern=args.missing_pattern,
+    is_interpolate=config["model"]["use_guide"], target_strategy=args.targetstrategy
+)
 
 
 
@@ -71,26 +71,26 @@ model_vae = VAE_pems(config, args.device).to(args.device)
 
 
 if __name__ == '__main__':
-    # if args.modelfolder == "":
-    #     train_vae(
-    #         model_vae,
-    #         config["train_VAE"],
-    #         train_loader,
-    #         valid_loader=valid_loader,
-    #         foldername=foldername,
-    #     )
-    # else:
-    #     model_vae.load_state_dict(torch.load("./save/" + args.modelfolder + "/model.pth"))
-    #
-    # evaluate_vae(
-    #     model_vae,
-    #     test_train_loader,
-    #     test_valid_loader,
-    #     test_loader,
-    #     scaler=scaler,
-    #     mean_scaler=mean_scaler,
-    #     foldername=foldername,
-    # )
+    if args.modelfolder == "":
+        train_vae(
+            model_vae,
+            config["train_VAE"],
+            train_loader,
+            valid_loader=valid_loader,
+            foldername=foldername,
+        )
+    else:
+        model_vae.load_state_dict(torch.load("./save/" + args.modelfolder + "/model.pth"))
+    
+    evaluate_vae(
+        model_vae,
+        test_train_loader,
+        test_valid_loader,
+        test_loader,
+        scaler=scaler,
+        mean_scaler=mean_scaler,
+        foldername=foldername,
+    )
 
 
     print('########################  begin diffussioh    ######################################')
