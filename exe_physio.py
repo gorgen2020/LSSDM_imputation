@@ -114,4 +114,4 @@ if __name__ == '__main__':
     else:
         model.load_state_dict(torch.load("./save/" + args.modelfolder + "/model.pth"))
 
-    evaluate(model, test_loader, nsample=args.nsample, scaler=1, foldername=foldername)
+    evaluate(model, test_loader1, nsample=args.nsample, scaler=1, foldername=foldername)
